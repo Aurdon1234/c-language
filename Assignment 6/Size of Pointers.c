@@ -7,8 +7,8 @@ int main()
 	ptri = &i;
 	ptrf = &f;
 	ptrc = &c;
-	printf("Adderss of i: %u\n",sizeof(ptri));
-	printf("Address of f: %u\n",sizeof(&f));
-	printf("Address of c: %u\n",sizeof(ptrc));
+	printf("Size of i pointer: %d\n",sizeof(ptri));
+	printf("Size of f pointer: %d\n",sizeof(&f));
+	printf("SIze of c pointer: %d\n",sizeof(ptrc));
 	return 0;
 }
